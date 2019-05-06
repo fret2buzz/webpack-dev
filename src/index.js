@@ -1,1 +1,4 @@
-console.log("11111");
+console.log("test");
+if (module.hot) {
+    module.hot.accept();
+}
